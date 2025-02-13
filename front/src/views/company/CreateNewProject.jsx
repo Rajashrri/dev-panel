@@ -41,10 +41,12 @@ const CreateNewProject = () => {
 };
 
   useEffect(() => {
+    fetchData();
+    
     if( !isLoggedIn ){
       navigate('/auth/signin');
     }
-    fetchData();
+    
   }, [isLoggedIn, navigate]); 
 
 
