@@ -1,0 +1,6 @@
+server/node_modules/
+front/node_modules/
+admin-panel/node_modules/
+
+
+*.zip
